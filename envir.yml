@@ -1,0 +1,14 @@
+name: baz_conda_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - sphinx
+  - pandoc
+  - scipy
+  - pip
+  - pip:
+    - some-pypi-package
+    - nbsphinx
+    - poetry

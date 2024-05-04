@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "DVC analysis"
+version = "0.1.0"
+description = "zzz"
+authors = ["Dmitrii Mamporia <dag01@srochnodengi.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+geopandas = "^0.14.3"
+flake8 = "^7.0.0"
+matplotlib = "^3.8.4"
+scipy = "^1.13.0"
+scikit-learn = "^1.4.2"
+kaggle = "^1.6.12"
+dvc = "^3.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
